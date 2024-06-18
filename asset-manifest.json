@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/firefly-application/static/css/main.7402dcdd.css",
+    "main.js": "/firefly-application/static/js/main.c0d1f5e3.js",
+    "index.html": "/firefly-application/index.html",
+    "main.7402dcdd.css.map": "/firefly-application/static/css/main.7402dcdd.css.map",
+    "main.c0d1f5e3.js.map": "/firefly-application/static/js/main.c0d1f5e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7402dcdd.css",
+    "static/js/main.c0d1f5e3.js"
+  ]
+}
