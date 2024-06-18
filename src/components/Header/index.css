@@ -1,0 +1,17 @@
+.header-container {
+  border-bottom: 1px solid #ff777766;
+  background-color: #1c1c1c33;
+  width: 100vw;
+  height: 72px;
+  padding: 15px 0px 0px 60px;
+  box-sizing: border-box;
+}
+
+.header-image {
+  width: 116px;
+  height: 47.23px;
+  top: 12px;
+  left: 120px;
+  gap: 0px;
+  opacity: 0px;
+}

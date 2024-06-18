@@ -1,0 +1,51 @@
+.product-item-cont {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border: 1px #cecece solid;
+  box-sizing: border-box;
+}
+
+.product-image {
+  width: 460px;
+  height: 334px;
+}
+
+.name-btn-cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.product-name {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+}
+
+.orange-button {
+  background-color: #fe0000;
+  width: 211px;
+  height: 52px;
+  color: white;
+  font-weight: bold;
+  top: 466px;
+  left: 361px;
+  gap: 4px;
+  border-radius: 0px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  transition: border-radius 0.1s;
+}
+
+.orange-button:hover {
+  background-color: #ff5656;
+  border-radius: 5px;
+}

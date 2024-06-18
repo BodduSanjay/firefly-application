@@ -1,0 +1,138 @@
+.bottam-bg-cont {
+  background-color: white;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100vw;
+}
+
+.content-container {
+  align-self: center;
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0px 30px 0px;
+  box-sizing: border-box;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+}
+
+.design-image {
+  width: Hug (7.97px) px;
+  height: Hug (450.31px) px;
+}
+
+.about-text {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: center;
+  color: #f27121;
+  width: 200px;
+}
+
+.decoration {
+  width: 117.1px;
+  height: 138.33px;
+  top: 706px;
+  left: 120px;
+  gap: 0px;
+  opacity: 0px;
+  box-sizing: border-box;
+}
+
+.about-details-text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  margin: 0px 20px 0px 20px;
+}
+
+.about-span {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+}
+
+.products-design {
+  width: Hug (7.97px) px;
+  height: Hug (450.31px) px;
+}
+
+.products-text {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: center;
+  color: #f27121;
+  width: 200px;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.full-design {
+  width: 115%;
+  height: Fixed (200px) px;
+  padding: 40px 0px 0px 0px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.footer-main-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #25a769;
+  box-sizing: border-box;
+  padding: 10px 20px 20px 20px;
+}
+
+.social-media-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons-cont {
+  display: flex;
+}
+
+.follow-text {
+  font-family: "Neue Metana";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.32px;
+  text-align: left;
+  color: #ece14c;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  margin-left: 30px;
+}

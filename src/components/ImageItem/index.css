@@ -1,0 +1,13 @@
+.active-image {
+  width: 166px;
+  height: 80px;
+  padding: 3px;
+  border: 1px dashed #f27121;
+}
+
+.normal-image {
+  width: 166px;
+  height: 80px;
+  padding: 3px;
+  border: 1px solid #f8efef;
+}

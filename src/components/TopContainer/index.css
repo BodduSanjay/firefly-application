@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap");
+
+.top-container {
+  background-image: url("https://res.cloudinary.com/dnm4q4bgp/image/upload/v1718617789/Beej-Patakha_3_1_gnyaus.png");
+  background-size: cover;
+  width: 100vw;
+  height: 527px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.button-heading-cont {
+  margin: 0px 0px 60px 60px;
+}
+
+.text-heading {
+  font-family: "Roboto";
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: left;
+  top: 243px;
+  left: 120px;
+  color: white;
+}
+
+.white-button {
+  background-color: #ffffff;
+  width: 211px;
+  height: 52px;
+  top: 401px;
+  left: 120px;
+  color: #fe0000;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  transition: border-radius 0.1s;
+}
+
+.white-button:hover {
+  background-color: #f1eeee;
+  border-radius: 5px;
+}
