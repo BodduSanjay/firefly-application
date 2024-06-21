@@ -21,13 +21,14 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   box-sizing: border-box;
+  width: 100%;
 }
 
 .design-image {
-  width: Hug (7.97px) px;
-  height: Hug (450.31px) px;
+  width: 40%;
+  height: 6px;
 }
 
 .about-text {
@@ -43,11 +44,6 @@
 .decoration {
   width: 117.1px;
   height: 138.33px;
-  top: 706px;
-  left: 120px;
-  gap: 0px;
-  opacity: 0px;
-  box-sizing: border-box;
 }
 
 .about-details-text {
@@ -68,8 +64,8 @@
 }
 
 .products-design {
-  width: Hug (7.97px) px;
-  height: Hug (450.31px) px;
+  width: 40%;
+  height: 6px;
 }
 
 .products-text {
@@ -135,4 +131,42 @@
   height: 30px;
   width: 30px;
   margin-left: 30px;
+}
+
+@media (max-width: 767px) {
+  .design-image {
+    width: Hug (7.97px) px;
+    height: Hug (50.5px) px;
+  }
+  .about-text {
+    font-size: 15px;
+  }
+  .products-text {
+    font-size: 15px;
+  }
+  .about-details-text {
+    width: 90%;
+  }
+  .decoration {
+    width: 20px;
+    height: 20px;
+  }
+  .products-design {
+    width: 35%;
+  }
+  .product-container {
+    flex-direction: column;
+  }
+  .icon {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+  }
+  .full-design {
+    width: 100%;
+    height: 6px;
+  }
+  .footer-main-cont {
+    padding: 5px 10px 5px 10px;
+  }
 }

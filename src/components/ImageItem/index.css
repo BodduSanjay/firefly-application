@@ -11,3 +11,14 @@
   padding: 3px;
   border: 1px solid #f8efef;
 }
+
+@media (max-width: 991px) {
+  .active-image {
+    width: 20%;
+    height: 43px;
+  }
+  .normal-image {
+    width: 20%;
+    height: 40px;
+  }
+}

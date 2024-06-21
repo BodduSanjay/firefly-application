@@ -4,7 +4,7 @@
   background-image: url("https://res.cloudinary.com/dnm4q4bgp/image/upload/v1718617789/Beej-Patakha_3_1_gnyaus.png");
   background-size: cover;
   width: 100vw;
-  height: 527px;
+  min-height: 527px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -43,4 +43,10 @@
 .white-button:hover {
   background-color: #f1eeee;
   border-radius: 5px;
+}
+
+@media (max-width: 991px) {
+  .button-heading-cont {
+    margin: 0px 0px 20px 20px;
+  }
 }

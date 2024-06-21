@@ -3,11 +3,12 @@
   flex-direction: column;
   padding: 5px;
   border: 1px #cecece solid;
+  width: 45%;
   box-sizing: border-box;
 }
 
 .product-image {
-  width: 460px;
+  width: 100%;
   height: 334px;
 }
 
@@ -24,7 +25,6 @@
   font-family: Roboto;
   font-size: 20px;
   font-weight: 600;
-  line-height: 28px;
   text-align: left;
 }
 
@@ -48,4 +48,19 @@
 .orange-button:hover {
   background-color: #ff5656;
   border-radius: 5px;
+}
+
+@media (max-width: 991px) {
+  .product-image {
+    width: 100%;
+    height: 200px;
+  }
+  .product-item-cont {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .product-name {
+    font-size: 15px;
+    margin-right: 5px;
+  }
 }
