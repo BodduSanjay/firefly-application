@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/firefly-application/static/css/main.a644e496.css",
+    "main.css": "/firefly-application/static/css/main.ee8d55ef.css",
     "main.js": "/firefly-application/static/js/main.c0d1f5e3.js",
     "index.html": "/firefly-application/index.html",
-    "main.a644e496.css.map": "/firefly-application/static/css/main.a644e496.css.map",
+    "main.ee8d55ef.css.map": "/firefly-application/static/css/main.ee8d55ef.css.map",
     "main.c0d1f5e3.js.map": "/firefly-application/static/js/main.c0d1f5e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.a644e496.css",
+    "static/css/main.ee8d55ef.css",
     "static/js/main.c0d1f5e3.js"
   ]
 }
